@@ -283,7 +283,10 @@
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-`NumPy · Pandas · Matplotlib · Seaborn`
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
 
 **`// FRAMEWORKS`**
 
@@ -293,7 +296,10 @@
 
 **`// AI · ML`**
 
-`Machine Learning · Deep Learning · Generative AI · Retrieval-Augmented Generation (RAG)`
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF8C00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-cc5500?style=for-the-badge&logo=pytorch&logoColor=white)
+![Generative AI](https://img.shields.io/badge/Generative%20AI-7B2FBE?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/Retrieval--Augmented%20Generation-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
 **`// DATABASES · VECTOR STORES`**
 
@@ -355,6 +361,7 @@
 ```
 
 ---
+
 <div align="center">
 
 ## `~/utkarsh $ ssh -p 443 hire@utkarsh.dev`
