@@ -251,7 +251,9 @@
 
 <br/><br/>
 
-<img width="72%" src="https://streak-stats.demolab.com/?user=Utkarsh240102&theme=gruvbox&hide_border=true&background=0d0d0d&ring=ff8c00&fire=ff6600&currStreakLabel=ff8c00&sideLabels=d4a96a&dates=888888&border_radius=0" />
+<!-- <img width="72%" src="https://streak-stats.demolab.com/?user=Utkarsh240102&theme=gruvbox&hide_border=true&background=0d0d0d&ring=ff8c00&fire=ff6600&currStreakLabel=ff8c00&sideLabels=d4a96a&dates=888888&border_radius=0" /> -->
+
+<img width="72%" src="https://nirzak-streak-stats.vercel.app/?user=Utkarsh240102&theme=gruvbox&hide_border=true&background=0d0d0d&ring=ff8c00&fire=ff6600&currStreakLabel=ff8c00&sideLabels=d4a96a&dates=888888&border_radius=0" />
 
 <br/><br/>
 
