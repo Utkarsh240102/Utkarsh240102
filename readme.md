@@ -1,8 +1,4 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:cc5500,100:ff8c00&height=80&section=header" width="100%"/>
-</div>
-
-<div align="center">
 
 ```
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -277,10 +273,6 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Utkarsh240102&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d0d0d&title_color=ff8c00&text_color=d4a96a&langs_count=8&border_radius=0" height="160"/>
-
-<br/><br/>
-
 <img width="72%" src="https://streak-stats.demolab.com/?user=Utkarsh240102&theme=gruvbox&hide_border=true&background=0d0d0d&ring=ff8c00&fire=ff6600&currStreakLabel=ff8c00&sideLabels=d4a96a&dates=888888&border_radius=0" />
 
 <br/><br/>
@@ -449,7 +441,5 @@
   Utkarsh Gupta  ·  Utkarsh240102  ·  🔥
   ──────────────────────────────────────
 ```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff8c00,50:cc5500,100:0d0d0d&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
