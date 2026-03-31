@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,30:1a0800,60:2d1200,100:0d0d0d&height=30&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:cc5500,100:ff8c00&height=80&section=header" width="100%"/>
 </div>
 
 <div align="center">
@@ -63,11 +63,12 @@
   "cgpa"       : 8.52,
 
   "weapons"    : {
-    "ai_ml"    : ["LangChain","FAISS","ChromaDB",
-                  "TensorFlow","Keras","XGBoost",
-                  "HuggingFace","OpenCV","Gemini"],
-    "backend"  : ["FastAPI","React.js","RESTful APIs"],
-    "infra"    : ["Docker","PostgreSQL","MongoDB","Git"]
+    "ai_ml"    : ["LangChain","LangGraph","CrewAI","AutoGen",
+                  "OpenAI Agents SDK","FAISS","ChromaDB",
+                  "TensorFlow","Keras","HuggingFace"],
+    "backend"  : ["FastAPI","React.js","TypeScript","RESTful APIs"],
+    "infra"    : ["Docker","PostgreSQL","MongoDB","Git",
+                  "LangSmith","MCP","n8n"]
   },
 
   "victories"  : [
@@ -75,6 +76,7 @@
     "🥉 APIHub Hackathon 1.0  ·  2nd Runner-Up"
   ],
 
+  "cert"       : "AI Engineer Agentic Track · Udemy · Mar 2026",
   "role"       : "Core Member — AI/ML Club · IIIT NR",
   "mode"       : "🟢 Open — internships & research",
   "creed"      : "Don't watch. Don't wait. Ship."
@@ -92,7 +94,7 @@
 ║ # ║ PROJECT                      ║ CORE TECH              ║ STATUS       ║
 ╠═══╬══════════════════════════════╬════════════════════════╬══════════════╣
 ║ 1 ║ 🧠 StudyAI                   ║ LangChain·FAISS·Gemini ║ ✅ SHIPPED   ║
-║ 2 ║ 💰 LUMEN Finance AI          ║ FastAPI·MongoDB·IsoFor ║ ✅ SHIPPED   ║
+║ 2 ║ 💰 LUMEN Finance AI          ║ FastAPI·PostgreSQL·RAG ║ ✅ SHIPPED   ║
 ║ 3 ║ 🚦 Multi-Agent DDQN Traffic  ║ PyTorch·SUMO·DeepRL    ║ ✅ COMPLETE  ║
 ║ 4 ║ 💬 DocuChat Multimodal RAG   ║ FAISS·BM25·ChromaDB    ║ ✅ SHIPPED   ║
 ║ 5 ║ 📐 ConsFormer Floor Plans    ║ TensorFlow·CP-SAT      ║ ✅ COMPLETE  ║
@@ -108,12 +110,12 @@
 <summary><b>▶ &nbsp;[PID 001] &nbsp;🧠 StudyAI — AI Learning Platform &nbsp;|&nbsp; 🥉 APIHub Hackathon 1.0</b></summary>
 <br/>
 
-> Multi-modal AI that devours **PDFs, videos & audio** and spits out flashcards, quizzes, mind maps & summaries.
+> Multi-modal AI that devours **PDFs, videos, audio & web URLs** and spits out flashcards, quizzes, mind maps & summaries.
 > The secret sauce: **Hybrid BM25 + FAISS retrieval** — keyword precision meets semantic depth.
-> Persistent storage tracks every artifact a user ever generated. Powered by **Gemini + LangChain**.
+> Collaborative study groups with shared document access + auto-synced AI content. **30+ RESTful API endpoints**.
 
 ```
-  Input  →  [PDF] [Video] [Audio] [Text]
+  Input  →  [PDF] [Video] [Audio] [Web URL]
      ↓
   [Gemini API]  +  [LangChain Pipeline]
      ↓
@@ -131,46 +133,48 @@
 </details>
 
 <details>
-<summary><b>▶ &nbsp;[PID 002] &nbsp;💰 LUMEN — AI Finance Genius &nbsp;|&nbsp; 🥈 HackASol 2025 · National Level</b></summary>
+<summary><b>▶ &nbsp;[PID 002] &nbsp;💰 LUMEN — AI Financial Intelligence System &nbsp;|&nbsp; 🥈 HackASol 2025 · National Level</b></summary>
 <br/>
 
-> Your bank statements shouldn't be a mystery. LUMEN ingests **Gmail + SMS transactions autonomously**,
-> detects suspicious patterns with **Isolation Forest anomaly detection**, and gives you clarity in real-time.
-> Manual entry workflows + statistical thresholding = finance intelligence that actually works.
+> Autonomous transaction ingestion from **Gmail (OAuth 2.0) + SMS (n8n webhooks)** — sub-second capture across all major Indian bank formats.
+> Dual-engine anomaly detection: **Isolation Forest (ML) + 3σ/6σ statistical thresholding**, reducing false positives by **67%** via user-feedback learning loop.
+> **FAISS-backed RAG chat** for natural language queries over 1000+ transactions. React + TypeScript frontend, FastAPI async backend, dual PostgreSQL databases.
 
 ```
-  [Gmail] ──┐
-  [SMS]   ──┼──► [Ingestion Engine] ──► [Isolation Forest]
-  [Manual]──┘                                  ↓
-                                       [Anomaly Alerts]
-                                       [Spending Insights]
+  [Gmail OAuth] ──┐
+  [SMS / n8n]  ──┼──► [Ingestion Engine] ──► [Isolation Forest + 3σ/6σ]
+  [Manual]     ──┘                                      ↓
+                                             [Anomaly Alerts · 67% fewer FP]
+                                             [FAISS RAG Chat Interface]
 ```
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![React](https://img.shields.io/badge/React+TS-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>▶ &nbsp;[PID 003] &nbsp;🚦 Multi-Agent DDQN Traffic Control</b></summary>
+<summary><b>▶ &nbsp;[PID 003] &nbsp;🚦 Multi-Agent DDQN Traffic Light Control System</b></summary>
 <br/>
 
 > What if traffic lights thought for themselves? This does that.
 > **Multi-agent Double DQN** across a 2×2 SUMO intersection grid.
-> Transfer learning from single-agent → 4 agents with **zero additional training**.
-> Independent + cooperative modes for full network-level load balancing.
+> Transfer learning from pretrained single-agent → 4-agent network: **86.8% reward improvement** over baseline with only 100 fine-tuning episodes.
+> Cooperative mode with neighbor-information sharing achieves **perfect load balancing**.
 
 ```
   Single Agent Pretrain
-        ↓  transfer learning
+        ↓  transfer learning  (100 episodes)
   [Agent 1] ←──── [Agent 2]
       |    \    /    |
       |     mesh     |
   [Agent 3] ──── [Agent 4]
         ↓
-  Coordinated Intersection Control
+  Coordinated Intersection Control  (+86.8% reward)
 ```
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -183,9 +187,19 @@
 <summary><b>▶ &nbsp;[PID 004] &nbsp;💬 DocuChat — Multimodal RAG Chatbot</b></summary>
 <br/>
 
-> Not just PDFs. **PDFs, images, audio files AND web links** — all queryable in one chat.
-> Hybrid FAISS + BM25 retrieval with transparent re-ranking.
+> Not just PDFs. **PDFs, images (EasyOCR), audio (Whisper) & web links (Playwright)** — all queryable in one chat.
+> Hybrid FAISS + BM25 retrieval with transparent re-ranking and automatic vector DB updates on document changes.
 > Every answer comes with a traceable source. No hallucination hiding.
+
+```
+  [PDF] [Image/OCR] [Audio/Whisper] [Web/Playwright]
+               ↓
+  [BM25 Search] ──⊕── [FAISS Vector Search]
+               ↓
+       Re-ranking + Source Trace
+               ↓
+         RAG Chat Response
+```
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
@@ -199,8 +213,8 @@
 <br/>
 
 > Architecture meets AI. **Transformer-based ConsFormer** model paired with a CP-SAT constraint solver.
-> Rooms modeled as graph nodes, adjacency rules as edges.
-> Result: 100% hard-constraint satisfaction on spatial layout benchmarks.
+> Rooms modeled as graph nodes, adjacency rules as edges — graph coloring for structured layout generation.
+> Result: **100% hard-constraint satisfaction** on spatial layout benchmarks.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -243,6 +257,22 @@
 
 ---
 
+## `~/utkarsh $ cat certifications.log`
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  DATE         │ CERTIFICATION                                │ ISSUER       ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  Mar 2026     │ AI Engineer Agentic Track:                   │ Udemy        ║
+║               │  The Complete Agent & MCP Course             │ Ed Donner    ║
+║               │  └─ 17 hrs · OpenAI Agents SDK · CrewAI      │ Ligency      ║
+║               │     LangGraph · AutoGen · MCP build+deploy   │              ║
+║               │     Multi-agent orchestration · Guardrails   │              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ## `~/utkarsh $ ./stats.sh`
 
 <div align="center">
@@ -271,6 +301,7 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -292,6 +323,10 @@
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF0000?style=for-the-badge&logoColor=white)
+![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI%20Agents%20SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 **`// AI · ML`**
@@ -300,22 +335,30 @@
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-cc5500?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-7B2FBE?style=for-the-badge&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/Retrieval--Augmented%20Generation-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-FF8C00?style=for-the-badge&logo=openai&logoColor=white)
+![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-cc5500?style=for-the-badge&logoColor=white)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-2C3E50?style=for-the-badge&logo=pytorch&logoColor=white)
 
 **`// DATABASES · VECTOR STORES`**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-4B8BBE?style=for-the-badge&logo=meta&logoColor=white)
 
-**`// TOOLS`**
+**`// TOOLS & PLATFORMS`**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-FF8C00?style=for-the-badge&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![REST APIs](https://img.shields.io/badge/RESTful%20APIs-FF8C00?style=for-the-badge&logo=api&logoColor=white)
+![REST APIs](https://img.shields.io/badge/RESTful%20APIs-FF8C00?style=for-the-badge&logoColor=white)
 
 </div>
 
@@ -331,7 +374,7 @@
 ╠═══════════════════╬══════════════════════════════════════════════════════╣
 ║ 🔨 BUILDING       ║  Something that should exist but doesn't  🔥        ║
 ╠═══════════════════╬══════════════════════════════════════════════════════╣
-║ 🔍 EXPLORING      ║  Multi-modal RAG  ·  RL for physical systems        ║
+║ 🔍 EXPLORING      ║  Multi-Agent Systems  ·  MCP  ·  Advanced RAG      ║
 ╠═══════════════════╬══════════════════════════════════════════════════════╣
 ║ 🎯 TARGET         ║  AI/ML Internship  ·  Open source contributions     ║
 ╠═══════════════════╬══════════════════════════════════════════════════════╣
@@ -407,6 +450,6 @@
   ──────────────────────────────────────
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,40:2d1200,70:1a0800,100:0d0d0d&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff8c00,50:cc5500,100:0d0d0d&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
